@@ -21,7 +21,7 @@ const ContentSection = () => {
             <div className="video-detail">
               <img src={channelProfile} alt="" className="channel-profile" />
               <div className="video-info">
-                <p>{videoTitle}</p>
+                <p className="video-title">{videoTitle}</p>
                 <p>{channelName}</p>
                 <p>{detail}</p>
               </div>
